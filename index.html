@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dr. André Gensler · MLOps · Python · Azure Cloud Engineer</title>
+<meta name="description" content="Dr. André Gensler — Freelance Solution Architect & Cloud Engineer. MLOps, Python, Azure, Data & Machine Learning.">
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1a1a1a; --muted:#5b6168; --line:#e6e8eb;
+    --accent:#2563eb; --max:1100px; --pad:96px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font:400 18px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent); text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:var(--max); margin:0 auto; padding:0 32px}
+  section{padding:var(--pad) 0; border-top:1px solid var(--line)}
+  h1{font-size:clamp(40px,7vw,76px); line-height:1.05; letter-spacing:-.02em; margin:0 0 16px}
+  h2{font-size:14px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); margin:0 0 40px; font-weight:600}
+  h3{font-size:21px; margin:0 0 6px; letter-spacing:-.01em}
+  p{margin:0 0 16px; max-width:68ch}
+  .lead{font-size:clamp(20px,2.4vw,26px); color:var(--muted); max-width:60ch; line-height:1.5}
+
+  /* Hero */
+  header{padding:120px 0 var(--pad)}
+  .eyebrow{color:var(--accent); font-weight:600; letter-spacing:.04em; margin:0 0 20px}
+  .hero-actions{margin-top:40px; display:flex; gap:14px; flex-wrap:wrap}
+  .btn{display:inline-block; padding:13px 22px; border:1px solid var(--fg); border-radius:8px; color:var(--fg); font-size:16px}
+  .btn:hover{background:var(--fg); color:#fff; text-decoration:none}
+  .btn.primary{background:var(--accent); border-color:var(--accent); color:#fff}
+  .btn.primary:hover{background:#1d4fd0}
+
+  /* Expertise */
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:40px 48px}
+  .grid p{color:var(--muted); font-size:16px}
+  .tags-label{font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:600; margin:56px 0 0}
+  .tags{display:flex; flex-wrap:wrap; gap:8px; margin-top:24px}
+  .tag{font-size:13px; color:var(--muted); border:1px solid var(--line); border-radius:999px; padding:6px 13px}
+
+  /* Projects */
+  .project{display:grid; grid-template-columns:200px 1fr; gap:40px; padding:32px 0; border-top:1px solid var(--line)}
+  .project:first-of-type{border-top:none}
+  .project .client{color:var(--muted); font-size:15px}
+  .project p{font-size:16px; color:var(--muted); margin:0}
+
+  /* About */
+  .about{display:grid; grid-template-columns:200px 1fr; gap:56px; align-items:start}
+  .photo{width:200px; height:200px; border-radius:12px; background:#f1f3f5;
+    display:flex; align-items:center; justify-content:center; color:var(--muted); font-size:14px; overflow:hidden}
+  .photo img{width:100%; height:100%; object-fit:cover}
+
+  footer{padding:var(--pad) 0; border-top:1px solid var(--line)}
+  footer a{font-size:20px}
+  .footnote{color:var(--muted); font-size:14px; margin-top:48px}
+
+  @media (max-width:680px){
+    .project,.about{grid-template-columns:1fr; gap:12px}
+    .about{gap:28px}
+    :root{--pad:64px}
+    header{padding:88px 0 var(--pad)}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow">Freelance · AI Consulting, Solution Architecture & Cloud Engineering</p>
+    <h1>Dr. André Gensler</h1>
+    <p class="lead">MLOps, Python & Azure Cloud Engineer. Mein Team und ich bauen cloud-native Daten- und Machine-Learning-Plattformen — vom Prototyp bis zum produktiven Betrieb. Dazu berate ich Unternehmen strategisch bei ihrem Weg zur KI.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#kontakt">Kontakt</a>
+      <a class="btn" href="#projekte">Referenzen</a>
+    </div>
+  </div>
+</header>
+
+<section id="expertise">
+  <div class="wrap">
+    <h2>Expertise</h2>
+    <div class="grid">
+      <div>
+        <h3>KI-Strategieberatung</h3>
+        <p>Use-Case-Identifikation, KI-Roadmap, Technologie- und Build-vs-Buy-Entscheidungen sowie Team-Enablement — von der Idee zur tragfähigen Strategie.</p>
+      </div>
+      <div>
+        <h3>Solution Architecture & Cloud</h3>
+        <p>Architektur und Aufbau cloud-nativer Plattformen auf Azure — sicher, skalierbar und wartbar.</p>
+      </div>
+      <div>
+        <h3>MLOps & Machine Learning</h3>
+        <p>End-to-End ML-Plattformen: Training, Tracking, Deployment und Monitoring. Inkl. Zeitreihenvorhersage und Pattern Recognition.</p>
+      </div>
+      <div>
+        <h3>Data Engineering</h3>
+        <p>ETL- und BigData-Pipelines für hohe Datenvolumina, von IoT-Telemetrie bis zu Marktdaten.</p>
+      </div>
+      <div>
+        <h3>Python Software Engineering</h3>
+        <p>Saubere, getestete Python-Codebasen — APIs, Services und Tooling mit Fokus auf Qualität.</p>
+      </div>
+      <div>
+        <h3>Energie & Märkte</h3>
+        <p>Energievorhersage und algorithmischer Energiemarkthandel — Domänenwissen aus realen Projekten.</p>
+      </div>
+    </div>
+    <p class="tags-label">Eingesetzte Technologien</p>
+    <div class="tags">
+      <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">REST API</span>
+      <span class="tag">OpenAI</span><span class="tag">LangChain</span><span class="tag">LanceDB</span>
+      <span class="tag">mlflow</span><span class="tag">scikit-learn</span><span class="tag">pandas</span>
+      <span class="tag">FastAPI / Flask</span><span class="tag">pydantic</span><span class="tag">pytest</span>
+      <span class="tag">SQLAlchemy</span><span class="tag">plotly</span><span class="tag">Power BI</span>
+      <span class="tag">Streamlit</span><span class="tag">Docker</span><span class="tag">Kubernetes</span>
+      <span class="tag">Git</span><span class="tag">Shell</span><span class="tag">Azure DevOps</span>
+      <span class="tag">AzureML</span><span class="tag">Databricks</span><span class="tag">Bicep</span>
+      <span class="tag">Azure Data Lake</span><span class="tag">Azure Functions</span><span class="tag">ACI / ACR</span>
+      <span class="tag">CosmosDB</span><span class="tag">KeyVault</span><span class="tag">VNET</span>
+      <span class="tag">Managed Identity</span><span class="tag">EntraID</span>
+    </div>
+  </div>
+</section>
+
+<section id="projekte">
+  <div class="wrap">
+    <h2>Selected Projects</h2>
+
+    <div class="project">
+      <div class="client">SaaS-Produkt · Maschinenbau</div>
+      <div>
+        <h3>SaaS-Plattform für automatisches Requirements-Management</h3>
+        <p>Entwicklung einer RAG/LLM-Anwendung, die technische Lastenhefte (PDF, DOCX, XLSX) automatisch ausliest, Anforderungen extrahiert und per Vektor-Ähnlichkeitssuche mit einer historischen Anforderungsdatenbank abgleicht — inkl. Reports und Datenbankpflege.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="client">Conversational AI</div>
+      <div>
+        <h3>Telefonischer Customer-Service-Bot</h3>
+        <p>Entwicklung eines sprachbasierten Bots für den telefonischen Kundenservice — automatisierte Gesprächsführung und Bearbeitung von Kundenanliegen.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="client">Munich RE AG</div>
+      <div>
+        <h3>Migration von GenAI-Plattformen</h3>
+        <p>Migration generativer AI-Plattformen im Versicherungsbereich.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="client">E.ON Energy Markets</div>
+      <div>
+        <h3>Plattform für algorithmische Handelsmodelle</h3>
+        <p>Aufbau einer Plattform für algorithmischen Energiemarkthandel.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="client">Munich RE AG</div>
+      <div>
+        <h3>Cloud-native MLOps-Plattform</h3>
+        <p>Konzeption und Umsetzung einer cloud-nativen MLOps-Plattform auf Azure.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="client">Vaillant Group</div>
+      <div>
+        <h3>BigData-Pipelines für IoT-Heizungssysteme</h3>
+        <p>Datenpipelines für Telemetrie vernetzter Heizungssysteme im großen Maßstab.</p>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="client">SMA Solar Technology · Universität Kassel</div>
+      <div>
+        <h3>MLOps & Optimierungsprojekte</h3>
+        <p>Weitere Projekte rund um MLOps, Optimierung und Energieprognose.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <h2>Über mich</h2>
+    <div class="about">
+      <!-- ponytail: Foto-Platzhalter — Datei als profil.jpg ablegen, dann <img> einkommentieren -->
+      <div class="photo">
+        <img src="profil.jpg" alt="Dr. André Gensler">
+      </div>
+      <div>
+        <h3>Dr. André Gensler</h3>
+        <p>Ich bin promovierter Ingenieur & Informatiker mit Schwerpunkt auf MLOps, Cloud und Data Engineering. Seit Jahren begleite ich Unternehmen dabei, Machine-Learning- und Datenplattformen produktiv zu machen — von der Architektur über die Implementierung bis zum stabilen Betrieb in der Azure-Cloud.</p>
+        <p>Mein Hintergrund verbindet wissenschaftliche Tiefe (Pattern Recognition, Zeitreihenvorhersage) mit pragmatischem Software Engineering. Besonders zu Hause bin ich an der Schnittstelle von Daten, Modellen und Infrastruktur, oft im Energie- und Versicherungssektor.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="kontakt">
+  <div class="wrap">
+    <h2>Kontakt</h2>
+    <p class="lead">Interesse an einer Zusammenarbeit? Schreiben Sie mir.</p>
+    <p style="margin-top:24px">
+      <!-- ponytail: JS-zusammengesetzte mailto, damit Scraper keine klare Adresse finden -->
+      <a id="mail" href="#" data-u="andre" data-d="gensler.me">andre [ät] gensler.me</a><br>
+      <a href="https://www.linkedin.com/in/andr%C3%A9-gensler-11973747/" rel="noopener">LinkedIn</a>
+    </p>
+    <p class="footnote">© Dr. André Gensler</p>
+  </div>
+</footer>
+
+<script>
+  // mailto erst im Browser zusammensetzen
+  var m = document.getElementById('mail');
+  m.href = 'mailto:' + m.dataset.u + '@' + m.dataset.d;
+  m.textContent = m.dataset.u + '@' + m.dataset.d;
+</script>
+</body>
+</html>
